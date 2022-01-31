@@ -29,7 +29,7 @@ assertEquals(20, calculadora.multiplicar(4, 5),
 
 }
 
-@RepeatedTest(100)
+@RepeatedTest(5)
 @DisplayName("Manejo del cero")
 void testMultiplicarPorCero() {
 assertEquals(0, calculadora.multiplicar(0, 5),
