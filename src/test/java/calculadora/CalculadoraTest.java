@@ -24,7 +24,7 @@ calculadora = new Calculadora();
 @Test
 @DisplayName("Multiplicación sencilla debería ir")
 void testMultiplicar() {
-assertEquals(20, calculadora.multiplicar(4, 5),
+assertEquals(40, calculadora.multiplicar(4, 5),
 "Multiplicación normal debe funcionar");
 
 }
